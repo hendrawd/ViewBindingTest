@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BonusActivity">
+
+    <TextView
+        android:id="@+id/tvHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <EditText
+        android:id="@+id/etHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="Input Text" />
+
+    <Button
+        android:id="@+id/bChangeWithViewBinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Change With ViewBinding"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bChangeWithSynthetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Change With Synthetic"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bChangeWithFindViewById"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Change With findViewById"
+        android:textAllCaps="false" />
+</LinearLayout>
